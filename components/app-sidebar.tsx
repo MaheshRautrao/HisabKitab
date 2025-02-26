@@ -1,5 +1,6 @@
 import {
   Activity,
+  Contact,
   DollarSign,
   Facebook,
   Group,
@@ -56,6 +57,11 @@ export function AppSidebar() {
               link="/dashboard/friends"
               text="Friends"
               icon={<Users />}
+            />
+            <SidebarMenuItemCustom
+              link="/dashboard/support"
+              text="Contact Support"
+              icon={<Contact />}
             />
           </div>
         </SidebarGroup>
